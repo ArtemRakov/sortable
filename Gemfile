@@ -16,6 +16,10 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
+gem 'acts_as_list'
+gem 'turbolinks'
+gem 'tether-rails'
 
 group :development, :test do
   gem 'pry-byebug'

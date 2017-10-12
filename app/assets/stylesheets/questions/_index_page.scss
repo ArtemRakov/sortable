@@ -1,12 +1,6 @@
-.question {
+.list-group-item {
   padding: 20px 0;
   text-align: center;
-  border-top: 1px solid #BB4444;
-  border-left: 1px solid #BB4444;
-  border-right: 1px solid #BB4444;
+  border: 1px solid #BB4444;
   border-radius: 2px;
-}
-
-.question:last-of-type {
-  border-bottom: 1px solid #BB4444;
 }
