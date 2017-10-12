@@ -1,7 +1,7 @@
 <div class="container">
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-8 col-md-offset-1">
     <% @questions.each do |question| %>
-      <%= render "shared/question" %>
+      <%= render "shared/question", question: question %>
     <% end %>
   </div>
 </div>
